@@ -1,0 +1,261 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+html,body {width:100%;height:100%;margin:0px;padding:0px;
+    overflow:hidden;
+    font-family:'Spoqa Han Sans Neo', 'sans-serif';
+    -webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+#fullpage {position:relative;top:0px;z-index:9;width:100%;height:100%;}
+.fullsection{width:100%;height:100%;position:relative;}
+#fullpage span{display:block;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;font-size:4em;font-weight:bold;}
+
+ul, li{margin:0;padding:0;list-style:none}
+.quick {position:fixed;right:35px;top:50%;transform:translateY(-50%); z-index:100000}
+.quick li {width:15px;height:15px;margin-bottom:25px; border-radius:17px; background: rgba(255, 255, 255, 0.1); border:2px solid rgba(255, 255, 255, 0.5); cursor:pointer;}
+.quick .on {background:#fff;}
+
+
+/* 고정 */
+
+.title a{
+    position: fixed;
+    z-index: 1000;
+
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+
+    font-size: 2.3rem;
+    font-weight: 800;
+    
+    padding: 1% 4% 1% 3%;
+    border-radius: 0px 0px 50px 0px;
+    box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.7);
+    
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.title a:hover{
+    background: #88ff29;
+    color: #222;
+    box-shadow: 0px 2px 10px rgba(171, 255, 132, 0.7);
+}
+
+
+.link_icon a {
+    color: #fff;
+    margin-bottom: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.link_icon a:hover {
+    color: #88ff29;
+}
+.link_icon {
+    position: fixed;
+    color: #fff;
+    z-index: 1000;
+
+    left: 3%;
+    bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 1페이지 */
+.full1 {
+    position: relative;
+    overflow: hidden;
+    background: #88ff29;
+}
+.full1::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.1) 30%);
+    background-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main_video1{
+    height: 100%;
+    position: relative;
+}
+.main_video1 video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(img/Space\ trip.gif);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+}
+
+.full1 .space1_wrap {
+    position:absolute;
+    z-index: 100;
+    width: 80%;
+    height: 70%;
+    bottom: 10%; left:10%;
+    color:#fff;
+
+    background: url(img/line.svg) no-repeat bottom left;
+}
+.full1 .space1_wrap h4 {
+    position: relative;
+    bottom: 15%; left: -5%;
+    font-size: 7rem;
+    font-weight: bold;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+}
+.full1 .space1_wrap a {
+    position: relative;
+    color: #fff;
+    bottom: 25%; left: 3%;
+    font-size: 2rem;
+    font-weight: 200;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.full1 .space1_wrap a:hover {
+    color: #88ff29;
+    font-weight: bold;
+    left: 5%;
+}
+
+.full1 .wheel_down {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    bottom: 8%;
+    transition: all 0.4s ease-in-out;
+}
+.full1 .wheel_down:hover {
+    filter: drop-shadow(0px 2px 5px #000000);
+    transform: translateY(25px);
+}
+
+/* 2페이지 */
+.full2 {
+    position: relative;
+    overflow: hidden;
+    background: #ff00ff;
+}
+.main_video2{
+    height: 100%;
+    position: relative;
+}
+.main_video2 video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(img/space\ trip2.gif);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+}
+
+.full2 .space2_wrap {
+    position:absolute;
+    z-index: 100;
+    width: 25%;
+    height: 23%;
+    bottom: 5%; right:15%;
+    color:#fff;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px 10px 150px 10px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 38px rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(7px);
+}
+.full2 .space2_wrap h4 {
+    position: relative;
+    color: #fff;
+    bottom: 33%; left: -10%;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.full2 .space2_wrap p {
+    position: relative;
+    color: #fff;
+    bottom: 30%; left: 3%;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 165%;
+    transition: all 0.2s ease-in-out;
+}
+
+/* 3페이지 */
+.full3 {
+    position: relative;
+    overflow: hidden;
+    background: #5a00ff;
+}
+.main_video3{
+    height: 100%;
+    position: relative;
+}
+.main_video3 video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(img/wandering\ lost\ child.gif);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+}
+.full3 .space3_wrap {
+    position:absolute;
+    z-index: 100;
+    width: 25%;
+    height: 47%;
+    top: 27%; right:20%;
+    color:#fff;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px 10px 150px 10px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 38px rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(7px);
+}
+.full3 .space3_wrap h4 {
+    position: relative;
+    color: #fff;
+    bottom: 17%; left: -10%;
+    font-size: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.full3 .space3_wrap p {
+    position: relative;
+    color: #fff;
+    bottom: 15%; left: 3%;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 185%;
+    transition: all 0.2s ease-in-out;
+}
+.full3 .space3_wrap img {
+    position: relative;
+    bottom: 12%; left: 5%;
+}
+
+.full3::after {
+    content: '';
+    position: absolute;
+    width: 320px;
+    height: 750px;
+    right: 2%;
+    top: 2%;
+    background: url(img/bg_object.svg) no-repeat right;
+    background-size: cover;
+}
