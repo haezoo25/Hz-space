@@ -1,0 +1,118 @@
+/*데탑*/
+  @media screen and (max-width:1440px) {
+
+    .full1 .space1_wrap h4 {
+        font-size: 4.7rem;
+    }
+    .full1 .space1_wrap a {
+        font-size: 1.5rem;
+    }
+    .full1 .wheel_down {
+        left: 50%; bottom: 5%;
+    }
+    .full1 .wheel_down img {
+        max-width: 70%;
+    }
+
+    .full2 .space2_wrap {
+        width: 30%;
+        height: 25%;
+        bottom: 5%; right: 26%;
+        padding: 1px 10px;
+    }
+    .full2 .space2_wrap h4 {
+        bottom: 40%; left: -10%;
+        font-size: 1.7rem;
+    }
+    .full2 .space2_wrap p {
+        bottom: 37%; left: 2%;
+        font-size: 1rem;
+    }
+
+    .full3 .space3_wrap {
+        width: 30%;
+        height: 45%;
+        padding: 1px 10px;
+    }
+    .full3 .space3_wrap h4 {
+    font-size: 1.7rem;
+    }
+    .full3 .space3_wrap p {
+        bottom: 20%;
+        font-size: 1rem;
+    }
+}
+  
+  
+  /*노트북*/
+  @media screen and (max-width:1024px) {
+    .title a {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .full1 .space1_wrap h4 {
+        font-size: 4rem;
+    }
+
+    .full2 .space2_wrap {
+        width: 35%;
+        height: 25%;
+        bottom: 5%;
+        right: 8%;
+    }
+    .full2 .space2_wrap p {
+        bottom: 37%;
+        left: 3%;
+        font-size: 0.95rem;
+    }
+
+    .full3 .space3_wrap {
+        top: 30%; right: 10%;
+        width: 35%;
+        height: 45%;
+    }
+    .full3::after {
+        width: 150px;
+        height: 355px;
+        right: 13%; top: -7%;
+        transform: rotate(-90deg );
+    }
+  }
+  
+  
+  
+  /*아이패드 (768px)*/
+  @media screen and (max-width:991px) {
+    .full3 .space3_wrap {
+        right: 8%;
+        width: 40%;
+    }
+  }
+  
+  
+  
+  /*모바일*/ 
+  @media screen and (max-width:767px) {
+
+  }
+  
+  
+  /*모바일2*/
+  @media screen and (max-width:576px) {
+
+  }
+  
+  
+  
+  /*모바일3 갤럭시*/
+  @media screen and (max-width:425px) {
+
+  }
+  
+  
+  
+  /*모바일4 아이폰*/
+  @media screen and (max-width:375px) {
+ 
+  }

@@ -23,12 +23,12 @@ function fullset(){
 				pagelength += $(".full"+i).height();
 			}
             //첫번째 페이지가 아닐때 (index는 0부터 시작임)
-			// if(page.index() > 0){
-			// 	page=page.index()-1;
-			// 	$("#fullpage").animate({"top": -pagelength + "px"},1000, "swing");
-			// }else{
-			// 	alert("첫번째페이지 입니다.");
-			// }	
+			if(page.index() > 0){
+				page=page.index()-1;
+				$("#fullpage").animate({"top": -pagelength + "px"},1000, "swing");
+			}else{
+				// alert("첫번째페이지 입니다.");
+			}	
 		}else{ // 마우스 휠을 아래로	
 			var nextPage=parseInt(page.index()+1); //다음페이지번호
 			var lastPageNum=parseInt($(".quick ul li").size()); //마지막 페이지번호

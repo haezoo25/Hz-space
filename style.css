@@ -13,7 +13,7 @@ html,body {width:100%;height:100%;margin:0px;padding:0px;
 
 ul, li{margin:0;padding:0;list-style:none}
 .quick {position:fixed;right:35px;top:50%;transform:translateY(-50%); z-index:100000}
-.quick li {width:15px;height:15px;margin-bottom:25px; border-radius:17px; background: rgba(255, 255, 255, 0.1); border:2px solid rgba(255, 255, 255, 0.5); cursor:pointer;}
+.quick li {width:13px;height:13px;margin-bottom:20px; border-radius:17px; background: rgba(255, 255, 255, 0.1); border:1px solid rgba(255, 255, 255, 0.5); cursor:pointer;}
 .quick .on {background:#fff;}
 
 
@@ -109,7 +109,7 @@ ul, li{margin:0;padding:0;list-style:none}
 .full1 .space1_wrap h4 {
     position: relative;
     bottom: 15%; left: -5%;
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: bold;
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
 }
@@ -117,7 +117,7 @@ ul, li{margin:0;padding:0;list-style:none}
     position: relative;
     color: #fff;
     bottom: 25%; left: 3%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 200;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
@@ -165,19 +165,20 @@ ul, li{margin:0;padding:0;list-style:none}
     position:absolute;
     z-index: 100;
     width: 25%;
-    height: 23%;
-    bottom: 5%; right:15%;
+    height: 25%;
+    bottom: 5%; right:26%;
     color:#fff;
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px 10px 150px 10px;
     background: rgba(0, 0, 0, 0.1);
     box-shadow: 0px 4px 38px rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(5px);
+    padding: 2px 10px;
 }
 .full2 .space2_wrap h4 {
     position: relative;
     color: #fff;
-    bottom: 33%; left: -10%;
+    bottom: 40%; left: -10%;
     font-size: 2rem;
     font-weight: 500;
     text-decoration: none;
@@ -186,8 +187,8 @@ ul, li{margin:0;padding:0;list-style:none}
 .full2 .space2_wrap p {
     position: relative;
     color: #fff;
-    bottom: 30%; left: 3%;
-    font-size: 1.4rem;
+    bottom: 42%; left: 4%;
+    font-size: 1.1rem;
     font-weight: 100;
     line-height: 165%;
     transition: all 0.2s ease-in-out;
@@ -220,16 +221,17 @@ ul, li{margin:0;padding:0;list-style:none}
     height: 47%;
     top: 27%; right:20%;
     color:#fff;
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px 10px 150px 10px;
     background: rgba(0, 0, 0, 0.1);
     box-shadow: 0px 4px 38px rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(7px);
+    padding: 2px 10px;
 }
 .full3 .space3_wrap h4 {
     position: relative;
     color: #fff;
-    bottom: 17%; left: -10%;
+    bottom: 22%; left: -10%;
     font-size: 2rem;
     font-weight: 500;
     text-decoration: none;
@@ -238,22 +240,23 @@ ul, li{margin:0;padding:0;list-style:none}
 .full3 .space3_wrap p {
     position: relative;
     color: #fff;
-    bottom: 15%; left: 3%;
-    font-size: 1.4rem;
+    bottom: 20%; left: 3%;
+    font-size: 1.1rem;
     font-weight: 100;
     line-height: 185%;
     transition: all 0.2s ease-in-out;
 }
 .full3 .space3_wrap img {
     position: relative;
-    bottom: 12%; left: 5%;
+    bottom: 18%; left: 5%;
+    max-width: 60%;
 }
 
 .full3::after {
     content: '';
     position: absolute;
-    width: 320px;
-    height: 750px;
+    width: 195px;
+    height: 460px;
     right: 2%;
     top: 2%;
     background: url(img/bg_object.svg) no-repeat right;
