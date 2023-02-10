@@ -1,6 +1,6 @@
 /*데탑*/
   @media screen and (max-width:1440px) {
-
+    /* page 1 */
     .full1 .space1_wrap h4 {
         font-size: 4.7rem;
     }
@@ -14,6 +14,7 @@
         max-width: 70%;
     }
 
+    /* page 2 */
     .full2 .space2_wrap {
         width: 30%;
         height: 25%;
@@ -29,6 +30,7 @@
         font-size: 1rem;
     }
 
+    /* page 3 */
     .full3 .space3_wrap {
         width: 30%;
         height: 45%;
@@ -51,10 +53,12 @@
         font-weight: 300;
     }
 
+    /* page 1 */
     .full1 .space1_wrap h4 {
         font-size: 4rem;
     }
 
+    /* page 2 */
     .full2 .space2_wrap {
         width: 35%;
         height: 25%;
@@ -67,6 +71,7 @@
         font-size: 0.95rem;
     }
 
+    /* page 3 */
     .full3 .space3_wrap {
         top: 30%; right: 10%;
         width: 35%;
@@ -86,7 +91,19 @@
   @media screen and (max-width:991px) {
     .full3 .space3_wrap {
         right: 8%;
-        width: 40%;
+        width: 43%;
+        height: 37%;
+        backdrop-filter: blur(3px);
+    }
+    .full3 .space3_wrap img {
+        max-width: 45%;
+        bottom: 28%;
+    }
+    .full3 .space3_wrap h4 {
+        bottom: 25%;
+    }
+    .full3 .space3_wrap p {
+        bottom: 27%;
     }
   }
   
