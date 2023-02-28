@@ -229,6 +229,9 @@
     }
 
     /* page 1 */
+    .full1 .space1_wrap {
+        bottom: 30%;
+    }
     .full1 .space1_wrap h4 {
         font-size: 3rem;
         bottom: -25%;
@@ -255,6 +258,7 @@
 
     /* page 3 */
     .full3 .space3_wrap {
+        top: 27%;
         left: 15%;
     }
     .full3 .space3_wrap p br.nbsp1 {
@@ -262,6 +266,9 @@
     }
     .full3 .space3_wrap p br.nbsp3 {
         display: none;
+    }
+    .full3 .space3_wrap img {
+        max-width: 40%;
     }
   }
   
@@ -285,7 +292,6 @@
         display: block;
     }
     .full3 .space3_wrap img {
-        max-width: 40%;
         bottom: 1%;
     }
   }
