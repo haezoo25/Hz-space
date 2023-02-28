@@ -189,16 +189,27 @@
     }
 
     /* page 3 */
+    .full3 .space3_wrap {
+        right: -3%;
+    }
     .full3 .space3_wrap h4 {
         left: 0;
     }
     .full3 .space3_wrap p {
         border-radius: 10px 10px 10px 10px;
         padding: 5% 4%;
-        width: 90%;
+        width: 75%;
+    }
+    .full3 .space3_wrap p br.nbsp3 {
+        display: block;
     }
   }
   
+  @media screen and (max-width:576px) {
+    .full3 .space3_wrap {
+        right: -7%;
+    }
+  }
   
   
   /*모바일3 갤럭시*/
@@ -249,14 +260,24 @@
     .full3 .space3_wrap p br.nbsp1 {
         display: block;
     }
-
+    .full3 .space3_wrap p br.nbsp3 {
+        display: none;
+    }
   }
   
   
   
   /*모바일4 아이폰*/
   @media screen and (max-width:375px) {
+    /* page 1 */
+    .full1 .space1_wrap {
+        bottom: 17%;
+    }
+
     /* page 3 */
+    .full3 .space3_wrap {
+        top: 40%;
+    }
     .full3 .space3_wrap p br.nbsp1 {
         display: none;
     }

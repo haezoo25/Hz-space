@@ -23,7 +23,9 @@ ul, li{margin:0;padding:0;list-style:none}
 .full3 .space3_wrap p br.nbsp2 {
     display: none;
 }
-
+.full3 .space3_wrap p br.nbsp3 {
+    display: none;
+}
 
 /* 고정 */
 
