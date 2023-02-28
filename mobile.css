@@ -60,6 +60,10 @@
   
   /*모바일*/ 
   @media screen and (max-width:767px) {
+    
+    .xi-github, .xi-git-symbol, .xi-palette, .xi-spinner-1{
+        font-size: 1.7em;
+    }
     .title a {
         font-size: 1.8rem;
         padding: 1% 5% 1% 3%;
@@ -116,6 +120,7 @@
         border-radius: 10px 10px 100px 10px;
         padding: 7% 11% 7% 7%;
         margin: 0.5em 0;
+        font-size: 0.9rem;
     }
     /* page 3 */
     .main_video3 video{
@@ -144,23 +149,106 @@
     }
     .full3 .space3_wrap p {
         padding: 5% 0 5% 4%;
+        font-size: 0.9rem;
     }
     .full3 .space3_wrap img {
         max-width: 50%;
     }
-    /* 상단 타이틀 hz 크기 줄이기 + 영상 어떻게 보여줄지 고려하기 */
   }
   
   
   /*모바일2*/
   @media screen and (max-width:576px) {
+    .title a {
+        font-size: 1.5rem;
+        padding: 2% 5% 2% 3%;
+    }
+    .full1 .wheel_down {
+        left: 48%;
+    }
+    .quick li {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 15px;
+    }
+    .full1 .wheel_down img {
+        max-width: 60%;
+    }
 
+    /* page 1 */
+    .full1 .space1_wrap h4 {
+        bottom: 0%;
+    }
+    .full1 .space1_wrap a {
+        bottom: 15%;
+    }
+
+    /* page 2 */
+    .full2 .space2_wrap p {
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    /* page 3 */
+    .full3 .space3_wrap h4 {
+        left: 0;
+    }
+    .full3 .space3_wrap p {
+        border-radius: 10px 10px 10px 10px;
+        padding: 5% 4%;
+        width: 90%;
+    }
   }
   
   
   
   /*모바일3 갤럭시*/
   @media screen and (max-width:425px) {
+    .quick {
+        top: 90%;
+    }
+    .quick ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .quick li {
+        width: 8px;
+        height: 8px;
+        margin-right: 8px;
+    }
+
+    /* page 1 */
+    .full1 .space1_wrap h4 {
+        font-size: 3rem;
+        bottom: -25%;
+        left: 5%;
+    }
+    .full1 .space1_wrap a {
+        bottom: -15%;
+        font-size: 1.3rem;
+    }
+    .full1 .space1_wrap p {
+        line-height: 100%;
+    }
+    .full1 .wheel_down img {
+        display: none;
+    }
+
+    /* page 2 */
+    .full2 .space2_wrap h4 {
+        left: 0%;
+    }
+    .full2 .space2_wrap {
+        right: 20%;
+    }
+
+    /* page 3 */
+    .full3 .space3_wrap {
+        left: 15%;
+    }
+    .full3 .space3_wrap p br.nbsp1 {
+        display: block;
+    }
 
   }
   
@@ -168,5 +256,15 @@
   
   /*모바일4 아이폰*/
   @media screen and (max-width:375px) {
- 
+    /* page 3 */
+    .full3 .space3_wrap p br.nbsp1 {
+        display: none;
+    }
+    .full3 .space3_wrap p br.nbsp1 {
+        display: block;
+    }
+    .full3 .space3_wrap img {
+        max-width: 40%;
+        bottom: 1%;
+    }
   }

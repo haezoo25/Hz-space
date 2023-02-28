@@ -16,8 +16,20 @@ ul, li{margin:0;padding:0;list-style:none}
 .quick li {width:13px;height:13px;margin-bottom:20px; border-radius:17px; background: rgba(255, 255, 255, 0.1); border:1px solid rgba(255, 255, 255, 0.5); cursor:pointer;}
 .quick .on {background:#fff;}
 
+/* page 3 띄어쓰기 */
+.full3 .space3_wrap p br.nbsp1 {
+    display: none;
+}
+.full3 .space3_wrap p br.nbsp2 {
+    display: none;
+}
+
 
 /* 고정 */
+
+.xi-github, .xi-git-symbol, .xi-palette, .xi-spinner-1{
+    font-size: 2em;
+}
 
 .title a{
     position: fixed;
