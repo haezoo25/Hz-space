@@ -276,10 +276,6 @@
   
   /*모바일4 아이폰*/
   @media screen and (max-width:375px) {
-    /* page 1 */
-    .full1 .space1_wrap {
-        bottom: 17%;
-    }
 
     /* page 3 */
     .full3 .space3_wrap {
@@ -292,6 +288,6 @@
         display: block;
     }
     .full3 .space3_wrap img {
-        bottom: 1%;
+        display: none;
     }
   }
